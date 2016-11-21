@@ -1,2 +1,8 @@
-@import "desktop/desktop";
-@import "mobile/mobile";
+
+@import "variables";
+@import "desktop";
+@import "mobile";
+
+body {
+  margin: 0;
+}
