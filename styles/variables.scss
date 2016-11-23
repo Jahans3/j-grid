@@ -1,2 +1,36 @@
-$header_font-family: open-sans, "Helvetica Neue";
+/**
+ * Desktop-specific
+ */
+$container_width-desktop: 900px;
+$header_title-wrapper-font-size-desktop: 33px;
+$header_img-logo-dimensions-desktop: 75px;
+$header_social-icon-wrapper-margin-desktop: 10px 3px 0 3px;
+
+/**
+ * Mobile-specific
+ */
+$inner-main-item-width-mobile: 300px;
+$header_title-wrapper-font-size-mobile: 22px;
+$container_width-mobile: 100%;
+$header_img-logo-dimensions-mobile: 45px;
+$container-width-mobile: 350px;
+$body_img-main-item-width: $container_width-mobile - 50px;
+$header_img-social-icon-dimensions-mobile: 40px;
+$header_div-social-icon-wrapper-margin: 10px 22px;
+$header_div-social-wrapper-background-color: #efefef;
+$header_div-social-wrapper-border: 1px solid #434343;
+$header_ul-nav-list-display: none;
+$header_div-nav-wrapper-width: 50px;
+$header_ul-nav-list-width: 200px;
+
+
+/**
+ * Shared
+ */
+$header_font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 $header_social-icon-size: 65px;
+$header_logo-margin: 10px 10px 10px 0;
+$header_title-wrapper-margin: 0 203px 0 5px;
+$header_title-wrapper-font-style: oblique;
+$header_ul-nav-list-background-color: lightgrey;
+$header_ul-nav-list-border: 2px solid black;

@@ -1,7 +1,7 @@
 @media screen and (min-width: 775px) {
 
   .div_container-main {
-    width: 900px;
+    width: $container_width-desktop;
     margin: 0 auto;
   }
 
@@ -20,25 +20,25 @@
     }
 
     &-logo-wrapper {
-      margin: 10px 10px 10px 0;
+      margin: $header_logo-margin;
     }
 
     &-title-wrapper {
-      margin: 0 203px 0 5px;
+      margin: $header_title-wrapper-margin;
       font-family: $header_font-family;
-      font-size: 33px;
-      font-style: oblique;
+      font-size: $header_title-wrapper-font-size-desktop;
+      font-style: $header_title-wrapper-font-style;
     }
 
     &-social-icon-wrapper {
       display: inline-block;
-      margin: 10px 3px 0 3px;
+      margin: $header_social-icon-wrapper-margin-desktop;
     }
   }
 
   .header_img-logo {
-    height: 75px;
-    width: 75px;
+    height: $header_img-logo-dimensions-desktop;
+    width: $header_img-logo-dimensions-desktop;
   }
 
   .header_img-social-icon {
@@ -47,8 +47,8 @@
   }
 
   .header_ul-nav-list {
-    background-color: lightgrey;
-    border: 2px solid black;
+    background-color: $header_ul-nav-list-background-color;
+    border: $header_ul-nav-list-border;
     padding: 0;
     text-align: center;
 
@@ -86,7 +86,6 @@
 
   .body_span-main-subtitle {
     font-size: 20px;
-
   }
 
   .body_div-main-title-wrapper {
@@ -153,4 +152,3 @@
     border-bottom: 0;
   }
 }
-
