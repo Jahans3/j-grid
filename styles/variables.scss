@@ -9,19 +9,27 @@ $header_social-icon-wrapper-margin-desktop: 10px 3px 0 3px;
 /**
  * Mobile-specific
  */
-$inner-main-item-width-mobile: 300px;
-$header_title-wrapper-font-size-mobile: 22px;
-$container_width-mobile: 100%;
-$header_img-logo-dimensions-mobile: 45px;
-$container-width-mobile: 350px;
-$body_img-main-item-width: $container_width-mobile - 50px;
+$header_div-menu-content: "menu";
 $header_img-social-icon-dimensions-mobile: 40px;
+$header_div-wrapper-width: 100%;
 $header_div-social-icon-wrapper-margin: 10px 22px;
 $header_div-social-wrapper-background-color: #efefef;
 $header_div-social-wrapper-border: 1px solid #434343;
+$header_div-menu-background-color: #efefef;
+$header_div-menu-border: 1px solid #434343;
+$header_div-menu-before-padding: 6px 12px;
 $header_ul-nav-list-display: none;
 $header_div-nav-wrapper-width: 50px;
 $header_ul-nav-list-width: 200px;
+$header_title-wrapper-font-size-mobile: 22px;
+$header_img-logo-dimensions-mobile: 45px;
+$inner-main-item-width-mobile: 300px;
+$container_width-mobile: 100%;
+$container-width-mobile: 350px;
+$body_img-main-item-width-mobile: $container_width-mobile - 50px;
+$body_div-main-item-wrapper-height: 800px;
+$body_div-more-wrapper-bottom: -122px;
+
 
 
 /**
@@ -34,3 +42,24 @@ $header_title-wrapper-margin: 0 203px 0 5px;
 $header_title-wrapper-font-style: oblique;
 $header_ul-nav-list-background-color: lightgrey;
 $header_ul-nav-list-border: 2px solid black;
+$header_li-nav-list-item-font-size: 28px;
+$header_a-link-color: #000000;
+$body_div-main-item-wrapper-width-desktop: 635px;
+$body_div-main-content-font-family: "Helvetica", "Book Antiqua", Palatino, serif;
+$body_div-more-wrapper-width: 120px;
+$body_div-extra-content-wrapper-width: 255px;
+$body_h4-main-title-font-size: 32px;
+$body_h4-main-title-font-weight: 300;
+$body_h4-more-title-font-size: 20px;
+$body_h4-extra-content-title-font-size: 26px;
+$body_h4-extra-content-title-font-weight: 200;
+$body_span_main-subtitle-font-size: 20px;
+$body_img-main-item-width-desktop: 635px;
+$body_img-extra-content-image-width: 255px;
+$body_p-main-content-font-size: 24px;
+$body_li-more-list-item-a-font-size: 18px;
+$body_a-link-color: $header_a-link-color;
+$footer_div-height: 50px;
+$footer_div-width: 100%;
+$footer_div-background-color: #efefef;
+$footer_div-border: 1px solid #000000;

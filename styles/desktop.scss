@@ -7,7 +7,7 @@
 
   .header_div {
     &-wrapper {
-      width: 100%;
+      width: $header_div-wrapper-width;
       display: block;
       position: relative;
     }
@@ -44,6 +44,7 @@
   .header_img-social-icon {
     height: $header_social-icon-size;
     width: $header_social-icon-size;
+    border-radius: 100%;
   }
 
   .header_ul-nav-list {
@@ -56,7 +57,7 @@
       display: inline-block;
       margin: 0 53px;
       font-family: $header_font-family;
-      font-size: 28px;
+      font-size: $header_li-nav-list-item-font-size;
 
       &:first-child {
         margin: 0 66px 0 0;
@@ -67,25 +68,25 @@
       }
 
       .header_a-link {
-        color: black;
+        color: $header_a-link-color;
         text-decoration: none;
       }
     }
   }
 
   .body_div-main-item-wrapper {
-    width: 635px;
+    width: $body_div-main-item-wrapper-width-desktop;
     display: inline-block;
   }
 
   .body_h4-main-title {
-    font-weight: 300;
-    font-size: 32px;
+    font-weight: $body_h4-main-title-font-weight;
+    font-size: $body_h4-main-title-font-size;
     margin-bottom: 5px;
   }
 
   .body_span-main-subtitle {
-    font-size: 20px;
+    font-size: $body_span-main-subtitle-font-size;
   }
 
   .body_div-main-title-wrapper {
@@ -94,21 +95,22 @@
   }
 
   .body_img-main-item {
-    width: 635px;
+    width: $body_img-main-item-width-desktop;
   }
 
   .body_p-main-content {
-    font-size: 24px;
+    font-size: $body_p-main-content-font-size;
+    font-family: $body_div-main-content-font-family;
   }
 
   .body_div-more-wrapper {
     float: right;
-    width: 120px;
+    width: $body_div-more-wrapper-width;
     padding-left: 30px;
 
     .body_h4-more-title {
       margin: 0 0 5px -16px;
-      font-size: 20px;
+      font-size: $body_h4-more-title-font-size;
     }
 
     .body_ul-more-list {
@@ -118,25 +120,25 @@
 
     .body_li-more-list-item a {
       text-decoration: none;
-      font-size: 18px;
-      color: black;
+      font-size: $body_li-more-list-item-a-font-size;
+      color: $body_a-link-color;
     }
   }
 
   .body_div-extra-content-wrapper {
     float: right;
-    width: 255px;
+    width: $body_div-extra-content-wrapper-width;
     margin-top: 44px;
 
     .body_h4-extra-content-title {
-      font-size: 26px;
-      font-weight: 200;
+      font-size: $body_h4-extra-content-title-font-size;
+      font-weight: $body_h4-extra-content-title-font-weight;
       margin-bottom: 5px;
       margin-top: -6px;
     }
 
     .body_img-extra-content-image {
-      width: 255px;
+      width: $body_img-extra-content-image-width;
     }
 
     .body_div-extra-content:last-child {
@@ -145,10 +147,10 @@
   }
 
   .footer_div {
-    height: 50px;
-    width: 100%;
-    background-color: lightgrey;
-    border: 1px solid black;
+    height: $footer_div-height;
+    width: $footer_div-width;
+    background-color: $footer_div-background-color;
+    border: $footer_div-border;
     border-bottom: 0;
   }
 }

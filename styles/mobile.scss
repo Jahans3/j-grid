@@ -44,16 +44,17 @@
   }
 
   .header_div-social-icon-wrapper {
-    margin: $header_div-social-icon-wrapper-margin
+    margin: $header_div-social-icon-wrapper-margin;
   }
 
   .header_img-social-icon {
     height: $header_img-social-icon-dimensions-mobile;
     width: $header_img-social-icon-dimensions-mobile;
+    border-radius: 100%;
   }
 
   .body_img-main-item {
-    width: $body_img-main-item-width;
+    width: $body_img-main-item-width-mobile;
   }
 
   .header_div-nav-wrapper {
@@ -61,20 +62,18 @@
     margin: 0 auto;
 
     &:before {
-      content: "menu";
-      background: #efefef;
-      height: 50px;
-      width: 150px;
-      padding: 6px 12px;
-      border: 1px solid #434343;
+      content: $header_div-menu-content;
+      background-color: $header_div-menu-background-color;
+      padding: $header_div-menu-before-padding;
+      border: $header_div-menu-border;
     }
 
     .header_ul-nav-list {
       display: $header_ul-nav-list-display;
       padding: 0;
       list-style: none;
-      background-color: #efefef;
-      border: 1px solid #434343;
+      background-color: $header_div-menu-background-color;
+      border: $header_div-menu-border;
       width: $header_ul-nav-list-width;
       text-align: center;
       margin-left: -68px;
@@ -97,34 +96,37 @@
   }
 
   .body_div-main-title-wrapper {
-    width: 300px;
     margin: 10px auto;
 
     .body_h4-main-title {
       margin-bottom: 4px;
       text-align: left;
     }
-
-    .body_span-main-subtitle {
-      width: 300px;
-      text-align: left;
-    }
   }
 
   .body_div-main-item-wrapper {
-    height: 750px;
+    height: $body_div-main-item-wrapper-height;
+  }
+
+  .body_h4-more-title {
+    margin-bottom: 5px;
   }
 
   .body_div-main-content-wrapper {
     position: relative;
+    font-family: $body_div-main-content-font-family;
 
     .body_div-more-wrapper {
-      bottom: -122px;
+      bottom: $body_div-more-wrapper-bottom;
       position: absolute;
     }
   }
 
   .body_div-extra-content-wrapper {
+    display: none;
+  }
+
+  .footer_section-wrapper {
     display: none;
   }
 }
